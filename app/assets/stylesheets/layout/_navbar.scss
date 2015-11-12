@@ -119,3 +119,13 @@
     margin-right: 10px;
   }
 }
+
+.navbar {
+  position: relative;
+  background-color: #FF6C17;
+  height: 100px;
+  .logo {
+    position: absolute;
+    padding-top: 25px;
+  }
+}
