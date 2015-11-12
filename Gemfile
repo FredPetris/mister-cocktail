@@ -1,3 +1,4 @@
+ruby '2.2.3'
 source 'https://rubygems.org'
 
 
@@ -48,11 +49,9 @@ group :development do
 end
 
 group :production do
-  ruby '2.2.0'
   gem 'rails_12factor'
   gem 'puma'
 end
 
 
-gem 'rspec-rails', group: [ :test ]
 gem 'rspec-rails', group: [ :test ]
