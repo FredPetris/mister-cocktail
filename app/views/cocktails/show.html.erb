@@ -7,10 +7,10 @@
     <%= dose.description %>
     <%= dose.ingredient.name %>
     <%= link_to  cocktail_dose_path(@cocktail, dose),
-    method: :delete,
-    data: { confirm: "Are you sure?" } do %>
-    <i class="glyphicon glyphicon-trash"></i>
-    <% end %>
+      method: :delete,
+      data: { confirm: "Are you sure?" } do %>
+        <i class="glyphicon glyphicon-trash"></i>
+      <% end %>
   </li>
   <% end %>
 </ul>
