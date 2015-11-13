@@ -57,4 +57,7 @@ gem 'bootstrap-sass'
 gem 'font-awesome-sass'
 gem 'simple_form'
 
+gem 'cloudinary'
+gem 'figaro'
+
 gem 'rspec-rails', group: [ :test ]
