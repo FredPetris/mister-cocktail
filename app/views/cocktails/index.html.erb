@@ -8,7 +8,7 @@
     <% @cocktails.each do |cocktail| %>
       <li class="list-group-item">
         <%= link_to cocktail.name, cocktail_path(cocktail) %>
-        <%= cl_image_tag cocktail.picture %>
+        <%= cl_image_tag cocktail.picture, transformation: "image_thumb" %>
         <%= link_to cocktail_path(cocktail),
           method: :delete,
           data: { confirm: "Are you sure?" } do %>

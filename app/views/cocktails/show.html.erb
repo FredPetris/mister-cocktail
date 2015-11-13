@@ -1,5 +1,5 @@
 <h2><%= @cocktail.name %></h2>
-<%= cl_image_tag @cocktail.picture %>
+<%= cl_image_tag @cocktail.picture, transformation: "image_show" %>
 <p><%= link_to "Add a dose", new_cocktail_dose_path(@cocktail), class: "btn btn-primary" %></p>
 <ul class="list-group">
   <% @cocktail.doses.each do |dose| %>
