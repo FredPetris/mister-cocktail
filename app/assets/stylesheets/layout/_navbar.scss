@@ -122,10 +122,17 @@
 
 .navbar {
   position: relative;
-  background-color: #FF6C17;
-  height: 100px;
+  height: 70px;
+  // position: relative;
+  // background-color: #FF6C17;
+  // height: 100px;
   .logo {
     position: absolute;
-    padding-top: 25px;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background: #FF6C17;
+    padding: 15px;
+    margin: 15px;
   }
 }
